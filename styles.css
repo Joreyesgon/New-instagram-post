@@ -1,0 +1,83 @@
+body { 
+    background-color: gray;
+}
+
+.post{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+}
+
+.head {
+    width: 500px;
+    height: 50px;
+    /*outline: 3px solid red;*/
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    width: 93%;
+    padding-left: 15px;
+}
+
+.user {
+    margin-left: 10px;
+}
+
+.name {
+    margin-top: -18px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+}
+.pic {
+    width: 500px;
+    height: 300px;
+    /*outline: 3px solid green;*/
+}
+
+.icons {
+    width: 500px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    display: flex;
+}
+
+.icons1 {
+    width: 20%;
+    display: flex;
+    justify-content: space-between
+}
+
+.icons2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
+
+.comment{
+    width: 500px;
+    height: 200px;
+    /*outline: 3px solid yellow;*/
+    position: relative;
+}
+
+.liked {
+    margin-top: -10px;
+    padding-left: 15px;
+}
+
+.myComment {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
